@@ -1,11 +1,17 @@
 *{padding: 0; margin: 0;}
 
+.background{
+    width: 100vw;
+    height: 80vh;
+    background-color: #FEF9F7;
+}
+
 .main-decor{
     background-image: url( '../../img/wave.svg' );
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 
 .grid-main{
@@ -27,8 +33,8 @@
     background-color: #ffffffb5;
     width: 585px;
     height: 320px;
-    float: left;
-    position: absolute;
+    float: right;
+    position: relative;
     margin: 8rem 5rem 0 0;
     padding: 0;
     z-index: 3;

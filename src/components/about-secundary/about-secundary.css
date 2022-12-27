@@ -1,0 +1,96 @@
+*{padding: 0; margin: 0;}
+
+.background-about-secundary{
+    width: 100vw;
+    height: 80vh;
+    background-color: #FEF9F7;
+    position: relative;
+}
+
+.decor-secundary-1{
+    background-color: #FBBDA6;
+    right: 0;
+    position: absolute;
+    float: right;
+    margin: auto;    
+    width: 960px;
+    height: 90px;
+}
+
+.background-about-secundary img{
+    padding-top: 2rem;
+    padding-right: 4rem;
+    right: 0;
+    position: absolute;
+    width: 600px;
+    float: right;
+}
+
+.about-text{
+    background-color: #ffffff93;
+    width: 630px;
+    height: 370px;
+    float: right;
+    position: relative;
+    margin: 8rem 500px 0 0;
+    padding: 0;
+    z-index: 3;
+}
+
+.text{
+    font-size: 1.3rem;
+    margin: 2rem;
+    padding: auto;
+    width: 80%;
+    height: 80%;
+    text-align: right;
+}
+
+.text h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 930px){
+    .background-about-secundary{
+        height: 120vh;
+    }
+
+    .about-text{
+        width: 300px;
+        height: 560px;
+        float: none;
+        position: absolute;
+        margin-left: 3rem;
+        margin-top: 0;
+    }
+
+    .background-about-secundary img{
+        position: relative;
+        max-width: 300px;
+        float: none;
+        margin-left: 3rem;
+    }
+
+    .text{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .decor-secundary-1{
+        background-color: #FBBDA6;
+        right: 0;
+        position: absolute;
+        float: right;
+        margin: auto;    
+        width: 270px;
+        height: 45px;
+    }
+
+    .text h2{
+        font-size: 1.5rem;
+    }
+    
+}

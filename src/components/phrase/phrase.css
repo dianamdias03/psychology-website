@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@300;400;500;600&display=swap');
+
+*{padding: 0; margin: 0;}
+
+.background-phrase{
+    width: 100vw;
+    height: 50vh;
+    background-color: #FEF9F7;
+}
+
+.background-image{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sentence{
+    align-self: center;
+    font-size: 2rem;
+    text-align: center;
+    color: #424242;
+    width: 50%;
+}
+
+.author{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.background-image .asp_1{
+    align-self: flex-start;
+    width: 130px;
+    margin-left: 2rem;
+}
+
+.background-image .asp_2{
+    width: 130px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    align-self: flex-end
+}
+
+@media (max-width: 930px){
+    .background-phrase{
+        padding-top: 150px;
+        height: 55vh;
+    }
+
+    .sentence{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+    .author{
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+}

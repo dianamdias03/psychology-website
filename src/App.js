@@ -5,9 +5,7 @@ import { NavMenu } from './components/nav-menu/navmenu';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <div>
+      <div className="main">
         <NavMenu></NavMenu>
         <Main></Main>
       </div>
